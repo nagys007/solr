@@ -1,0 +1,32 @@
+<br><div class="row-fluid">
+  <div class="row-fluid">
+    
+    <div class="row-fluid">
+      <div class="span1">
+        <a href="http://mfhadoopt03:8888/filebrowser/view{{file_path}}">
+          <img src="http://www.adobe.com/images/pdficon_large.png"><br>
+            </a></div>
+          <div class="span9">        <b>{{file_name}}</b>
+            <!--{{#preview}}{{file_upload_url}}{{/preview}}-->
+            <br><font size="1">{{#truncate500}}{{text}}{{/truncate500}}<br><font color="#848484">created {{#fromnow}}{{created}}{{/fromnow}} ({{#date}}{{created}}{{/date}})</font></font></div>
+              <div class="span2"><p>
+                <a href="http://mfhadoopt03:8888/filebrowser/download{{file_path}}">
+                  <img src="http://mfwiki.metafinanz.office/confluence/download/attachments/93454413/download.jpg?api=v2">
+                    
+                  </a>
+                </p></div>
+              </div>
+              <br>
+              </div></div>
+            
+/*Advanced:            
+<style>
+em {
+  color: red;
+}
+</style>
+
+<script>
+</script>
+             
+*/

@@ -1,0 +1,10 @@
+oracle
+it
+java
+englisch
+english
+sql
+hadoop
+pig
+hive
+solr
